@@ -28,6 +28,11 @@
 <li><strong>Git</strong> - 版本控制</li>
 <li><strong>npm/pnpm</strong> - 包管理器</li>
 </ul>
+<h3 id="开发" tabindex="-1"><a class="header-anchor" href="#开发"><span>开发</span></a></h3>
+<ul>
+<li><strong>Gitcode</strong> - 仓库地址</li>
+<li><RouteLink to="/dev/guide.html">开发指南</RouteLink> - 如何开发</li>
+</ul>
 <h2 id="学习建议" tabindex="-1"><a class="header-anchor" href="#学习建议"><span>学习建议</span></a></h2>
 <p>手敲加 ai 理解</p>
 <h2 id="获取帮助" tabindex="-1"><a class="header-anchor" href="#获取帮助"><span>获取帮助</span></a></h2>

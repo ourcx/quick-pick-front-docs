@@ -1,16 +1,3 @@
 import comp from "/Users/zhuxinhao/quick-pick-front-docs/vuepress-starter/docs/.vuepress/.temp/pages/dev/guide.html.vue"
-const data = JSON.parse("{\"path\":\"/dev/guide.html\",\"title\":\"gallery-app 项目总结\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"一、项目概述\",\"slug\":\"一、项目概述\",\"link\":\"#一、项目概述\",\"children\":[]},{\"level\":2,\"title\":\"二、目录结构\",\"slug\":\"二、目录结构\",\"link\":\"#二、目录结构\",\"children\":[]},{\"level\":2,\"title\":\"三、路由系统\",\"slug\":\"三、路由系统\",\"link\":\"#三、路由系统\",\"children\":[]},{\"level\":2,\"title\":\"四、网络请求层\",\"slug\":\"四、网络请求层\",\"link\":\"#四、网络请求层\",\"children\":[]},{\"level\":2,\"title\":\"五、状态管理（Vuex）\",\"slug\":\"五、状态管理-vuex\",\"link\":\"#五、状态管理-vuex\",\"children\":[]},{\"level\":2,\"title\":\"六、作品状态机\",\"slug\":\"六、作品状态机\",\"link\":\"#六、作品状态机\",\"children\":[]},{\"level\":2,\"title\":\"七、公共组件注意事项\",\"slug\":\"七、公共组件注意事项\",\"link\":\"#七、公共组件注意事项\",\"children\":[]},{\"level\":2,\"title\":\"八、代码规范工具链\",\"slug\":\"八、代码规范工具链\",\"link\":\"#八、代码规范工具链\",\"children\":[]},{\"level\":2,\"title\":\"九、后续待开发事项\",\"slug\":\"九、后续待开发事项\",\"link\":\"#九、后续待开发事项\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"dev/guide.md\"}")
+const data = JSON.parse("{\"path\":\"/dev/guide.html\",\"title\":\"gallery-app 项目总结\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"一、项目概述\",\"slug\":\"一、项目概述\",\"link\":\"#一、项目概述\",\"children\":[]},{\"level\":2,\"title\":\"二、目录结构\",\"slug\":\"二、目录结构\",\"link\":\"#二、目录结构\",\"children\":[]},{\"level\":2,\"title\":\"三、路由系统\",\"slug\":\"三、路由系统\",\"link\":\"#三、路由系统\",\"children\":[]},{\"level\":2,\"title\":\"四、网络请求层\",\"slug\":\"四、网络请求层\",\"link\":\"#四、网络请求层\",\"children\":[]},{\"level\":2,\"title\":\"五、状态管理（Vuex）\",\"slug\":\"五、状态管理-vuex\",\"link\":\"#五、状态管理-vuex\",\"children\":[]},{\"level\":2,\"title\":\"六、作品状态机\",\"slug\":\"六、作品状态机\",\"link\":\"#六、作品状态机\",\"children\":[]},{\"level\":2,\"title\":\"七、公共组件注意事项\",\"slug\":\"七、公共组件注意事项\",\"link\":\"#七、公共组件注意事项\",\"children\":[]},{\"level\":2,\"title\":\"八、代码规范工具链\",\"slug\":\"八、代码规范工具链\",\"link\":\"#八、代码规范工具链\",\"children\":[]},{\"level\":2,\"title\":\"九、后续待开发事项\",\"slug\":\"九、后续待开发事项\",\"link\":\"#九、后续待开发事项\",\"children\":[]}],\"git\":{\"updatedTime\":1774679679000,\"contributors\":[{\"name\":\"CI Bot\",\"username\":\"\",\"email\":\"zhuxinhao@xiaohongshu.com\",\"commits\":2}],\"changelog\":[{\"hash\":\"480d2435fb10cd24735d2ca9769f23580e76bb50\",\"time\":1774679679000,\"email\":\"zhuxinhao@xiaohongshu.com\",\"author\":\"CI Bot\",\"message\":\"feat: 优化文字\"},{\"hash\":\"146f1508ad38b519866509904079017ec6a07774\",\"time\":1774170298000,\"email\":\"zhuxinhao@xiaohongshu.com\",\"author\":\"CI Bot\",\"message\":\"docs: 开发文档\"}]},\"filePathRelative\":\"dev/guide.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

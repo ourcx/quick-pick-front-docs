@@ -1,6 +1,4 @@
-<template><div><p>信息已全部收集完毕，输出完整项目文档。</p>
-<hr>
-<h1 id="gallery-app-项目总结" tabindex="-1"><a class="header-anchor" href="#gallery-app-项目总结"><span>gallery-app 项目总结</span></a></h1>
+<template><div><h1 id="gallery-app-项目总结" tabindex="-1"><a class="header-anchor" href="#gallery-app-项目总结"><span>gallery-app 项目总结</span></a></h1>
 <h2 id="一、项目概述" tabindex="-1"><a class="header-anchor" href="#一、项目概述"><span>一、项目概述</span></a></h2>
 <table>
 <thead>

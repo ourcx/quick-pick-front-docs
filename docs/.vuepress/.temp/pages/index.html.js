@@ -1,16 +1,3 @@
 import comp from "/Users/zhuxinhao/quick-pick-front-docs/vuepress-starter/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"庆快校园前端文档站\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"title\":\"庆快校园前端文档站\",\"heroImage\":\"https://vuejs.press/images/hero.png\",\"actions\":[{\"text\":\"开始\",\"link\":\"/get-started.html\",\"type\":\"primary\"}],\"features\":[{\"title\":\"校园小程序\",\"details\":\"小程序开发\"},{\"title\":\"广州大学\",\"details\":\"广州大学商业中心小程序\"},{\"title\":\"前端\",\"details\":\"uniapp 和一些实现\"}],\"footer\":\"MIT Licensed | Copyright © 2026-present VuePress Community\"},\"headers\":[],\"git\":{\"updatedTime\":1773495944000,\"contributors\":[{\"name\":\"朱鑫浩\",\"username\":\"\",\"email\":\"zhuxinhao@xiaohongshu.com\",\"commits\":1}],\"changelog\":[{\"hash\":\"01fe6dcdb318e9b1a3959209b1db4bca7f07d608\",\"time\":1773495944000,\"email\":\"zhuxinhao@xiaohongshu.com\",\"author\":\"朱鑫浩\",\"message\":\"feat: 添加基本文章\"}]},\"filePathRelative\":\"README.md\"}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"庆快校园前端文档站\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"title\":\"庆快校园前端文档站\",\"heroImage\":\"https://vuejs.press/images/hero.png\",\"heroText\":\"庆快校园 · 前端文档\",\"tagline\":\"打造极致的校园小程序开发体验\",\"actions\":[{\"text\":\"快速开始\",\"link\":\"/get-started.html\",\"type\":\"primary\"},{\"text\":\"开发手册\",\"link\":\"/dev/guide.html\",\"type\":\"secondary\"}],\"features\":[{\"title\":\"⚡ 极速响应\",\"details\":\"基于 Uni-app 与 Vite 构建，极致的编译速度与运行效率，赋能校园小程序开发。\"},{\"title\":\"🛠️ 模块化架构\",\"details\":\"深度实践前端工程化，统一代码规范，沉淀 SSE 通信、Token 安全等通用解决方案。\"},{\"title\":\"🎓 广大学生群体\",\"details\":\"专为广州大学商业中心打造，覆盖高频校园场景，提供稳定、可靠的服务体验。\"}],\"footer\":\"MIT Licensed | Copyright © 2026-present 庆快校园团队\"},\"headers\":[{\"level\":2,\"title\":\"项目概览\",\"slug\":\"项目概览\",\"link\":\"#项目概览\",\"children\":[{\"level\":3,\"title\":\"核心技术栈\",\"slug\":\"核心技术栈\",\"link\":\"#核心技术栈\",\"children\":[]},{\"level\":3,\"title\":\"快速跳转\",\"slug\":\"快速跳转\",\"link\":\"#快速跳转\",\"children\":[]}]}],\"git\":{\"updatedTime\":1773495944000,\"contributors\":[{\"name\":\"朱鑫浩\",\"username\":\"\",\"email\":\"zhuxinhao@xiaohongshu.com\",\"commits\":1}],\"changelog\":[{\"hash\":\"01fe6dcdb318e9b1a3959209b1db4bca7f07d608\",\"time\":1773495944000,\"email\":\"zhuxinhao@xiaohongshu.com\",\"author\":\"朱鑫浩\",\"message\":\"feat: 添加基本文章\"}]},\"filePathRelative\":\"README.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

@@ -1,14 +1,1 @@
-export const themeData = JSON.parse("{\"logo\":\"https://vuejs.press/images/hero.png\",\"navbar\":[\"/\",\"/get-started\",{\"text\":\"通信方案\",\"link\":\"/communication/\"}],\"sidebar\":{\"/communication/\":[{\"text\":\"通信方案\",\"children\":[\"/communication/\",\"/communication/sse-implementation.md\"]}]},\"locales\":{\"/\":{\"selectLanguageName\":\"English\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"sidebarDepth\":2,\"editLink\":true,\"editLinkText\":\"Edit this page\",\"lastUpdated\":true,\"contributors\":true,\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
-}
+export const themeData = JSON.parse("{\"logo\":\"https://vuejs.press/images/hero.png\",\"navbar\":[{\"text\":\"首页\",\"link\":\"/\"},{\"text\":\"快速开始\",\"link\":\"/get-started\"},{\"text\":\"开发指南\",\"link\":\"/dev/guide\"},{\"text\":\"通信方案\",\"link\":\"/communication/\"},{\"text\":\"安全性\",\"link\":\"/safe/token\"},{\"text\":\"工具/云服务\",\"link\":\"/util/cloud\"}],\"sidebar\":{\"/dev/\":[{\"text\":\"开发指南\",\"children\":[\"/dev/guide.md\",\"/dev/Front-end.md\"]}],\"/communication/\":[{\"text\":\"通信方案\",\"children\":[\"/communication/README.md\",\"/communication/sse-implementation.md\"]}],\"/safe/\":[{\"text\":\"安全与认证\",\"children\":[\"/safe/token.md\"]}],\"/util/\":[{\"text\":\"通用工具\",\"children\":[\"/util/cloud.md\"]}]},\"locales\":{\"/\":{\"selectLanguageName\":\"English\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"sidebarDepth\":2,\"editLink\":true,\"editLinkText\":\"Edit this page\",\"lastUpdated\":true,\"contributors\":true,\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")

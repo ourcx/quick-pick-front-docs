@@ -1,0 +1,67 @@
+<template><div><h1 id="前端学习" tabindex="-1"><a class="header-anchor" href="#前端学习"><span>前端学习</span></a></h1>
+<hr>
+<h2 id="入门" tabindex="-1"><a class="header-anchor" href="#入门"><span>入门</span></a></h2>
+<h3 id="文字学习" tabindex="-1"><a class="header-anchor" href="#文字学习"><span>文字学习</span></a></h3>
+<p>ES6:<a href="https://es6.ruanyifeng.com/" target="_blank" rel="noopener noreferrer">https://es6.ruanyifeng.com/</a>
+TypeScript:<a href="https://www.bookstack.cn/read/wangdoc-typescript-tutorial/README.md" target="_blank" rel="noopener noreferrer">https://www.bookstack.cn/read/wangdoc-typescript-tutorial/README.md</a>
+八股合集:<a href="https://vue3js.cn/interview/JavaScript/data_type.html" target="_blank" rel="noopener noreferrer">https://vue3js.cn/interview/JavaScript/data_type.html</a>
+计网面试:<a href="https://xiaolincoding.com/" target="_blank" rel="noopener noreferrer">https://xiaolincoding.com/</a></p>
+<h3 id="视频学习" tabindex="-1"><a class="header-anchor" href="#视频学习"><span>视频学习</span></a></h3>
+<p>B 站的黑马程序员和尚硅谷
+先学习 HTML+CSS+JS 三件套
+然后根据个人需求学习 Vue 或者 react</p>
+<blockquote>
+<p>完成以上的步骤就完成了前端的一个基本入门</p>
+</blockquote>
+<hr>
+<h2 id="进阶" tabindex="-1"><a class="header-anchor" href="#进阶"><span>进阶</span></a></h2>
+<ol>
+<li>axios
+这个是和后端交互的一个库，可以帮助你发请求，是 AJAX的具体实现</li>
+<li>element-ui 或 Ant Design
+通过学习 UI 库的使用，了解前端基本了解的页面概念和接入组件库</li>
+<li>pinia 或 vuex
+通过学习状态管理，了解前端状态管理，这个是复杂页面构建的一个重要手段</li>
+<li>测试
+前端也需要测试，自测是保证页面功能符合预期和保证改动不影响其他功能的重要手段，测试框架有 Jest、Jasmine、Mocha、Cypress 等，测试方法有单元测试、集成测试、端到端测试、性能测试、安全测试等</li>
+<li>构建工具
+熟悉 webpack 和 vite，如果以后要做库的开发可以了解 rollup</li>
+<li>浏览器兼容
+不同的浏览器给我们带来不同的麻烦，css 和 js 都有其对浏览器兼容的方法，可以去了解一些打包工具： postcss、autoprefixer、babel</li>
+<li>浏览器原理
+浏览器打开一个 url，请求这个 url 对应的资源，比如 html、css、js、图片、视频、音频、字体、图标、插件等等，并且构建 dom 树 和 css 树，渲染页面，并把结果展示给用户，浏览器的运行机制和原理很复杂，但是了解一些原理，比如浏览器的渲染机制，如何优化页面性能，如何提高页面的 SEO 等，可以了解一些原理</li>
+<li>Typescript
+ts是 一个类型系统，可以给变量、函数、类、接口、模块、枚举、类型别名、类型保护、类型推断、泛型、类继承、接口继承、模块导入导出、模块合并、模块别名、模块声明、模块加载、模块加载策略、模块加载器、模块加载器配置、模块加载器插件、模块加载器插件配置、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器插件开发、模块加载器</li>
+<li>性能优化
+网络层面（HTTP/2/3, CDN）、代码层面（Code Splitting, 懒加载）、监控指标（Web Vitals）都有可以优化的点</li>
+<li>工程化与代码质量
+ESLint、Prettier、Husky</li>
+<li>现代前端架构
+Monorepo、SSR/SSG (Nuxt.js/Next.js)、微前端以及跨端开发（Electron, Tauri）</li>
+<li>设计模式
+观察者模式、发布-订阅模式等前端常用模式</li>
+</ol>
+<hr>
+<h2 id="方向" tabindex="-1"><a class="header-anchor" href="#方向"><span>方向</span></a></h2>
+<p>学习完上面这些，剩下的就要你在实践当中找到自己的具体方向深入了</p>
+<ol>
+<li>全栈开发</li>
+<li>中后台开发
+从 CRUD 页面到微前端、低代码、编辑器等</li>
+<li>移动应用
+H5 开发和小程序开发-&gt;跨端开发，混合开发</li>
+<li>桌面应用开发
+electron、tauri</li>
+<li>前端基建
+业务工具资产开发，工具链制定，脚手架和框架研发，建设基建平台</li>
+<li>数据可视化
+可视化框架，可视化应用，图形和互动，游戏等</li>
+<li>前端智能化
+D2C、生成式 UI、ai 相关</li>
+</ol>
+<hr>
+<h3 id="前端的未来" tabindex="-1"><a class="header-anchor" href="#前端的未来"><span>前端的未来</span></a></h3>
+<p>诚然，ai 写代码的能力已经很强了，前端也有很多地方的代码工作可以由 ai 来完成，如果你只能局限在写页面这一块，那么你跟是不能和 ai 竞争的，未来前端的发展肯定是在 ai 的辅助先，完成更多工程化方面的工作，通过 ai 提高效率，建设更复杂的前端应用，就像在前端工程化的时代，进行当切图仔是不行的</p>
+</div></template>
+
+

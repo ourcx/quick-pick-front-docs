@@ -7,29 +7,36 @@
 **庆快校园** 是一个基于 UniApp 的校园小程序，致力于为广州大学学生提供便捷功能。
 
 ### 通信方案学习
+
 - [SSE 实时推送](/communication/sse-implementation.html) - 了解如何实现服务端推送
 - 轮询方案（敬请期待）
 - WebSocket 双向通信（敬请期待）
   
 ### 安全
+
 - [双 token](/safe/token.html) - 了解我们的双 token 实现
 
 ### 工具开发
+
 - [用户信息](/util/cloud.html) - 获取用户信息
 
 ### 前端框架
+
 - **UniApp** - 跨平台小程序开发框架
 - **Vue 3** - 前端框架
 - **JavaScript/TypeScript** - 编程语言
 
 ### 开发工具
+
 - **HBuilderX** - UniApp 官方IDE
 - **Git** - 版本控制
 - **npm/pnpm** - 包管理器
 
 ### 开发
+
 - **Gitcode** - 仓库地址
 - [开发指南](/dev/guide.html) - 如何开发
+- [前端路线](/dev/Front-end.html) - 如何学习
 
 ## 学习建议
 

@@ -32,6 +32,7 @@
 <ul>
 <li><strong>Gitcode</strong> - 仓库地址</li>
 <li><RouteLink to="/dev/guide.html">开发指南</RouteLink> - 如何开发</li>
+<li><RouteLink to="/dev/Front-end.html">前端路线</RouteLink> - 如何学习</li>
 </ul>
 <h2 id="学习建议" tabindex="-1"><a class="header-anchor" href="#学习建议"><span>学习建议</span></a></h2>
 <p>手敲加 ai 理解</p>
